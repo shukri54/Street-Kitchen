@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(247, 101, 235);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    background-color: rgb(236, 175, 228);
+    margin: 0 auto;
+}
+h1.title{
+    text-align: left!important;
+    color: rgb(14, 196, 180);
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: rgb(162, 224, 243);
+    transition: ease-in-out .2s;
+
+}
+.top-nav{
+    background-color: rgb(170, 207, 248);
+    overflow: hidden;
+}
+.top-nav ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid rgb(240, 237, 237);
+    padding: 5px 10px;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(15, 56, 167);
+    font-weight: 800;
+    font-size: 24px;
+
+}
+.top-nav ul li:hover{
+    background-color: rgb(81, 97, 238);
+    
+}
+.top-nav ul li:hover a{
+    text-decoration: underline;
+    color: rgb(240, 167, 167);
+
+}
+.image{
+    height: 600px;
+    width: 500px;
+}
+.image:hover{
+    opacity: 5;
+    transform: scale(1.005);
+    transition: ease-in 2s;
+}
+.credits{
+    background-color: rgb(255, 0, 200);
+    padding: 20px;
+    color: rgb(25, 0, 255);
+    font-size: 30px;
+}
+.credits:hover{
+    transform: rotate(0deg);
+    transition: ease-in-out 10ms;
+}
